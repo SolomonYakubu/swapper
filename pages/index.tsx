@@ -300,7 +300,7 @@ const Home: NextPage = () => {
         >
           <div className=" w-full  py-12 px-6 md:px-48">
             <Fade>
-              <h3 className="text-center text-4xl md:text-6xl mb-12 p-1 font-extrabold  text-white w-full">
+              <h3 className="md:text-center text-4xl md:text-6xl mb-12 p-1 font-extrabold  text-white w-full">
                 Tokenomics
               </h3>
             </Fade>
