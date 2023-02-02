@@ -6,12 +6,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Lorus</title>
+        <title>Swapper</title>
         <style>
           @import
           url(&quot;https://fonts.googleapis.com/css2?family=Questrial&display=swap)
         </style>
-        <meta property="og:title" content="Lorus" />
+        <meta property="og:title" content="Swapper" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -33,15 +33,13 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           property="og:description"
-          content=" Lorus has emerged as a phenomenon in the Cryptocurrency
-                  community. Its limited supply and no-tax policy have made it a
-                  sought-after asset, with investors all around the world
-                  fighting for a piece of the pie. This has fueled discussion
-                  about its potential as a big player in the cryptocurrency
-                  market. Lorus's enigmatic and mythical nature has made it
-                  a highly sought-after token. Its no-tax Buy/Sell policy has
-                  made it a feasible investment prospect, and its potential has
-                  made it a desired asset."
+          content="Swapper is developing an API technology that provides
+                  end-to-end liquidity endpoints. Developers who want to develop
+                  DEX or dApp can use Swapper API for token swap transactions.
+              
+                  Swapper sends requests to 6 different liquidity pools at the
+                  same time. In this way, it finds the most suitable price match
+                  and shows it to the user."
         />
         <meta property="og:url" content="" />
       </Head>
