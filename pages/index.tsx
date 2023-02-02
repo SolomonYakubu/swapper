@@ -351,7 +351,7 @@ const Home: NextPage = () => {
           <Fade>
             <div className="flex flex-col md:flex-row gap-3 w-full md:px-36 my-3 justify-center items-center md:justify-start">
               <a
-                href="https://t.me/Lorusportal"
+                href="https://twitter.com"
                 className=" bg-stone-500 bg-opacity-10 text-white rounded-lg flex-1 p-8 w-full  md:py-12 flex flex-col justify-center items-center"
               >
                 <ExportedImage
@@ -365,7 +365,7 @@ const Home: NextPage = () => {
                 <p className="text-black ">Swapper</p>
               </a>
               <a
-                href="https://twitter.com/Lorustoken"
+                href="https://t.me"
                 className="bg-stone-500 text-white  bg-opacity-10 rounded-lg flex-1 w-full p-8 md:py-12 flex flex-col justify-center items-center "
               >
                 <ExportedImage
@@ -451,7 +451,7 @@ const Home: NextPage = () => {
                   <a href="https://twitter.com" className="text-zinc-500">
                     <BsTwitter size={25} />
                   </a>
-                  <a href="https://twitter.com" className="text-zinc-500">
+                  <a href="https://github.com" className="text-zinc-500">
                     <BsGithub size={25} />
                   </a>
                 </div>
