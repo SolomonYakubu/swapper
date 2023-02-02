@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Questrial;
+}
+
+:root {
+  --light-blue: #da6a60;
+  --purple: #9f2844;
+  --blue: #7cd3ee;
+  --black: #323a41;
+  --bg1: #0c0c0c;
+}
+.active {
+  background: #d9b589;
+  background-clip: text;
+  color: transparent;
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .active {
+    background: #d9b589;
+    background-clip: text;
+    color: transparent;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #000616;
+  }
+}
