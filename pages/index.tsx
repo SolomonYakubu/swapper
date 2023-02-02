@@ -128,7 +128,7 @@ const Home: NextPage = () => {
             </Fade>
             <div className=" md:pt-0 md:w-1/2 px-6 md:p-3 w-full">
               <Fade>
-                <h3 className="font-bold text-4xl md:text-5xl md:pb-4   md:text-start  text-black my-1 leading-snug">
+                <h3 className=" text-4xl md:text-5xl md:pb-4 font-extrabold   md:text-start  text-black my-1 leading-snug">
                   POWERFUL FOR DEVELOPERS. <br></br>FAST FOR EVERYONE
                 </h3>
                 <p className="text-black border-l-2 border-solid border-black p-2 px-4 text-lg  md:text-left ">
