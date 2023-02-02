@@ -305,14 +305,16 @@ const Home: NextPage = () => {
               </h3>
             </Fade>
             <div className="flex flex-col md:flex-row justify-between gap-8 flex-wrap items-start w-full py-7">
-              <div className="block  w-full md:w-1/3 self-center">
-                <ExportedImage
-                  src={chart}
-                  alt="logo"
-                  layout="responsive"
-                  className=" rounded-full"
-                />
-              </div>
+              <Fade>
+                <div className="block  w-full md:w-1/3 self-center">
+                  <ExportedImage
+                    src={chart}
+                    alt="logo"
+                    layout="responsive"
+                    className=" rounded-full"
+                  />
+                </div>
+              </Fade>
               <div className="w-full md:w-3/5 flex flex-col gap-3 md:gap-10 md:flex-row flex-wrap">
                 {tokenomics.map((item, index) => (
                   <Fade key={index} left>
