@@ -230,21 +230,25 @@ const Home: NextPage = () => {
               </h4>
             </Fade>
           </div>
-          <div className="bg-black flex flex-col justify-center items-center gap-6 px-6 py-16 w-full my-5 md:w-1/3">
-            <p className="text-white text-5xl font-bold">Swapper</p>
-            <p className="text-white text-3xl font-bold">Smart Contract</p>
-            <p className="text-white md:text-sm text-xs ">
-              0x0000000000000000000000000000000000000
-            </p>
-            <p className="text-white text-3xl font-bold">Token Supply</p>
-            <p className="text-white">100,000,000</p>
-            <button
-              onClick={() => (window.location.href = "https://www.dextools.io")}
-              className="   bg-none border border-solid border-white text-white w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
-            >
-              Buy Now
-            </button>
-          </div>
+          <Fade>
+            <div className="bg-black flex flex-col justify-center items-center gap-6 px-6 py-16 w-full my-5 md:w-1/3">
+              <p className="text-white text-5xl font-bold">Swapper</p>
+              <p className="text-white text-3xl font-bold">Smart Contract</p>
+              <p className="text-white md:text-sm text-xs ">
+                0x0000000000000000000000000000000000000
+              </p>
+              <p className="text-white text-3xl font-bold">Token Supply</p>
+              <p className="text-white">100,000,000</p>
+              <button
+                onClick={() =>
+                  (window.location.href = "https://www.dextools.io")
+                }
+                className="   bg-none border border-solid border-white text-white w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
+              >
+                Buy Now
+              </button>
+            </div>
+          </Fade>
         </section>
         <section
           className="p-6 md:p-12 py-12 w-full bg-black flex flex-col items-center bg-cover bg-right md:bg-fixed"
@@ -323,9 +327,11 @@ const Home: NextPage = () => {
                     </div>
                   </Fade>
                 ))}
-                <p className="text-white font-bold text-xl self-end text-center">
-                  LP locked for 3 months. Contract ownership renounced
-                </p>
+                <Fade>
+                  <p className="text-white font-bold text-xl self-end text-center">
+                    LP locked for 3 months. Contract ownership renounced
+                  </p>
+                </Fade>
               </div>
             </div>
           </div>
