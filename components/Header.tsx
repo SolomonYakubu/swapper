@@ -44,7 +44,7 @@ export default function Header() {
       <div
         className={`${
           (page < 70 && "bg-white") || "bg-white"
-        } transition-all duration-500 p-4 md:px-24 md:py-8 flex w-screen items-center justify-between shadow-lg  h-24`}
+        } transition-all duration-500 p-4 md:px-24 md:py-8 flex w-screen items-center justify-between shadow-lg  h-20`}
       >
         <div className="block w-20 p-1">
           <ExportedImage

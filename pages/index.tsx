@@ -15,7 +15,7 @@ import twitter from "../public/images/twitter.png";
 import telegram from "../public/images/telegram.png";
 
 import laptop from "../public/images/laptop.png";
-import chart from "../public/images/chart.jpg";
+import chart from "../public/images/chart.png";
 
 import { FaCopy } from "react-icons/fa";
 import { BsTelegram, BsTwitter, BsMedium, BsGithub } from "react-icons/bs";
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
       <Layout>
         {/* <Header /> */}
         <section
-          className=" min-h-[calc(100vh-96px)] mb-0 pb-0 w-full bg-gray-200  md:py-0 bg-cover bg-center md:bg-center md:bg-fixed relative"
+          className=" min-h-[calc(100vh-5rem)] mb-0 pb-0 w-full bg-gray-200  md:py-0 bg-cover bg-center md:bg-center md:bg-fixed relative"
           id="Home"
           // style={{ backgroundImage: "url('images/background.webp')" }}
         >
@@ -392,7 +392,6 @@ const Home: NextPage = () => {
                   className=""
                 />
               </div>
-              <p className="font-bold text-white text-3xl">Swapper</p>
             </div>
             <div className="flex flex-col md:flex-row items-center w-full md:gap-3 justify-around">
               <div className="flex  flex-col gap-5 items-start md:flex-row w-full md:justify-between">
