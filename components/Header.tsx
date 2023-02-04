@@ -14,7 +14,14 @@ export default function Header() {
   const [isSocialOpen, setSocialOpen] = useState(false);
   const [page, setPage] = useState(0);
   const [home, setHome] = useState(true);
-  const list = [["Docs", "/"]];
+  const list = [
+    ["Home", null],
+    ["About", null],
+    ["Roadmap", null],
+    ["Tokenomics", null],
+
+    ["Docs", "/"],
+  ];
 
   const sessionList = [
     ["Dashboard", "/dashboard", true],
@@ -56,15 +63,31 @@ export default function Header() {
         </div>
         <ul className="  md:justify-between gap-4 md:flex hidden">
           {" "}
-          {list.map(([name, link], index) => (
-            <a
-              className="m-2 text-black font-bold  cursor-pointer "
-              key={index}
-              href={link}
-            >
-              {name}
-            </a>
-          ))}
+          {list.map(
+            ([name, link], index) =>
+              (link === null && (
+                <Link
+                  className="m-2 text-black font-bold  cursor-pointer"
+                  key={index}
+                  activeClass="none"
+                  to={`${name}`}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  {name}
+                </Link>
+              )) || (
+                <a
+                  className="m-2 text-black font-bold  cursor-pointer "
+                  key={index}
+                  href={`${link}`}
+                >
+                  {name}
+                </a>
+              )
+          )}
           <button
             onClick={() => (window.location.href = "")}
             className="  bg-black text-white p-3 px-5  rounded  mr-1 border-none w-fit hover:scale-110 transition-all duration-700"
@@ -92,22 +115,27 @@ export default function Header() {
         <ul className="flex flex-col h-full justify-around translate-y-[-100px]">
           {list.map(
             ([name, link], index) =>
-              (home && (
+              (link === null && (
+                <Link
+                  className="mt-4  text-gray-50  text-left   font-bold  text-2xl"
+                  key={index}
+                  activeClass="none"
+                  to={`${name}`}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  {name}
+                </Link>
+              )) || (
                 <a
                   className={`mt-4  text-gray-50  text-left   font-bold  text-2xl `}
                   key={index}
-                  href={link}
+                  href={`${link}`}
                 >
                   {name}
                 </a>
-              )) || (
-                <li
-                  className={`mt-2 pl-2 text-gray-50 m-1 font-light  hover:scale-105`}
-                  key={index}
-                  onClick={() => router.push("/")}
-                >
-                  {name}
-                </li>
               )
           )}
           <button

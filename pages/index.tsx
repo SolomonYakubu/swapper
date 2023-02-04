@@ -10,6 +10,7 @@ import ParticlesBg from "../components/particles";
 import { Fade, Bounce, Roll } from "react-reveal";
 import ethscan from "../public/images/ethscan.png";
 import uniswap from "../public/images/uniswap.png";
+import dextools from "../public/images/dextools.png";
 import logo from "../public/images/logo.png";
 import twitter from "../public/images/twitter.png";
 import telegram from "../public/images/telegram.png";
@@ -200,6 +201,17 @@ const Home: NextPage = () => {
               />
             </div>
             <p className="font-bold text-lg opacity-50 text-black">Etherscan</p>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="block w-6">
+              <ExportedImage
+                src={dextools}
+                alt=""
+                layout="responsive"
+                className="opacity-50"
+              />
+            </div>
+            <p className="font-bold text-lg opacity-50 text-black">Dextools</p>
           </div>
         </section>
 
