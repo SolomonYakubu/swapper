@@ -363,7 +363,7 @@ const Home: NextPage = () => {
           <Fade>
             <div className="flex flex-col md:flex-row gap-3 w-full md:px-36 my-3 justify-center items-center md:justify-start">
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/TheSwapperToken"
                 className=" bg-stone-500 bg-opacity-10 text-white rounded-lg flex-1 p-8 w-full  md:py-12 flex flex-col justify-center items-center"
               >
                 <ExportedImage
@@ -377,7 +377,7 @@ const Home: NextPage = () => {
                 <p className="text-black ">Swapper</p>
               </a>
               <a
-                href="https://t.me"
+                href="https://t.me/TheSwapperChannel"
                 className="bg-stone-500 text-white  bg-opacity-10 rounded-lg flex-1 w-full p-8 md:py-12 flex flex-col justify-center items-center "
               >
                 <ExportedImage
@@ -410,16 +410,22 @@ const Home: NextPage = () => {
                 <ul className="text-zinc-500 text-sm  flex flex-col items-start justify-start ">
                   <p className="text-white font-bold text-base">Learn More</p>
                   <li>
-                    <a href="">Quick Start</a>
+                    <a href="https://the-swapper-project.gitbook.io/the-swapper/swap-api/quick-start">
+                      Quick Start
+                    </a>
                   </li>
                   <li>
-                    <a href="">Roadmap</a>
+                    <a href="#Roadmap">Roadmap</a>
                   </li>
                   <li>
-                    <a href="">Allocation</a>
+                    <a href="https://the-swapper-project.gitbook.io/the-swapper/tokenomics-usdswap">
+                      Allocation
+                    </a>
                   </li>
                   <li>
-                    <a href="">Docs</a>
+                    <a href="https://the-swapper-project.gitbook.io/the-swapper/">
+                      Docs
+                    </a>
                   </li>
                 </ul>
                 <ul className="text-zinc-500 text-sm  flex flex-col items-start justify-start ">
@@ -427,13 +433,15 @@ const Home: NextPage = () => {
                     Connect with Swapper
                   </p>
                   <li>
-                    <a href="">Twitter</a>
+                    <a href="https://twitter.com/TheSwapperToken">Twitter</a>
                   </li>
                   <li>
-                    <a href="">Telegram</a>
+                    <a href="https://t.me/TheSwapperChannel">Telegram</a>
                   </li>
                   <li>
-                    <a href="">Gitbook</a>
+                    <a href="https://the-swapper-project.gitbook.io/the-swapper/">
+                      Gitbook
+                    </a>
                   </li>
                   <li>
                     <a href="">Github</a>
