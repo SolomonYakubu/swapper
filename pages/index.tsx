@@ -153,7 +153,10 @@ const Home: NextPage = () => {
                     BUY NOW
                   </button>
                   <button
-                    onClick={() => (window.location.href = "")}
+                    onClick={() =>
+                      (window.location.href =
+                        "https://the-swapper-project.gitbook.io/the-swapper/")
+                    }
                     className="   bg-none border border-solid border-black text-black w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
                   >
                     START BUILDING
@@ -464,10 +467,16 @@ const Home: NextPage = () => {
               </p>
               <Fade top>
                 <div className="flex gap-3 my-3 justify-center items-center md:justify-start">
-                  <a href="https://t.me" className="text-zinc-500">
+                  <a
+                    href="https://t.me/TheSwapperChannel"
+                    className="text-zinc-500"
+                  >
                     <BsTelegram size={25} />
                   </a>
-                  <a href="https://twitter.com" className="text-zinc-500">
+                  <a
+                    href="https://twitter.com/TheSwapperToken"
+                    className="text-zinc-500"
+                  >
                     <BsTwitter size={25} />
                   </a>
                   <a href="https://github.com" className="text-zinc-500">
