@@ -309,32 +309,32 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section
-          className="  w-full bg-zinc-900 bg-cover bg-left"
+          className="  w-full bg-black bg-cover bg-left"
           id="Tokenomics"
           style={{ backgroundImage: "url('images/bg.jpg')" }}
         >
-          <div className=" w-full  py-12 px-6 md:px-48">
+          <div className=" w-full  py-12 px-6 ">
             <Fade>
               <h3 className="md:text-center text-4xl md:text-6xl mb-12 p-1 font-extrabold  text-white w-full">
                 Tokenomics
               </h3>
             </Fade>
-            <div className="flex flex-col md:flex-row justify-between gap-8 flex-wrap items-start w-full py-7">
+            <div className="flex flex-col md:flex-row justify-between md:justify-center gap-2 flex-wrap items-start w-full py-7 md:py-16">
               <Fade>
-                <div className="block  w-full md:w-1/3 self-center">
+                <div className="block  w-full md:w-2/5 self-center">
                   <ExportedImage
                     src={chart}
                     alt="logo"
                     layout="responsive"
-                    className=" rounded-full"
+                    className=""
                   />
                 </div>
               </Fade>
-              <div className="w-full md:w-3/5 flex flex-col gap-3 md:gap-10 md:flex-row flex-wrap">
+              <div className="w-full md:w-1/2 flex flex-col gap-3 md:gap-10 md:flex-row md:justify-center md:items-center flex-wrap">
                 {tokenomics.map((item, index) => (
                   <Fade key={index} left>
-                    <div className="md:w-[40%] border-r-4 w-1/2 even:self-end even:border-l-4 even:border-r-0 md:border-l-4 md:border-r-0 border-solid border-gray-600 p-4 text-white bg-zinc-700">
-                      <h3 className="text-4xl md:text-8xl mb-3 flex items-end  gap-1 ">
+                    <div className="md:w-[35%] border-r-4 w-1/2 even:self-end even:border-l-4 even:border-r-0 md:border-l-4 md:border-r-0 border-solid border-gray-600 p-4 text-white bg-zinc-700">
+                      <h3 className="text-4xl md:text-6xl mb-3 flex items-end  gap-1 ">
                         {item.value}
                         <span className="text-zinc-400 text-2xl md:text-4xl font-bold">
                           {item.symbol}
