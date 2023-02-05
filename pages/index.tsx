@@ -453,7 +453,9 @@ const Home: NextPage = () => {
                 <ul className="text-zinc-500 text-sm  flex flex-col items-start justify-start ">
                   <p className="text-white font-bold text-base">Legal</p>
                   <li>
-                    <a href="">Privacy Policy</a>
+                    <a href="https://the-swapper-project.gitbook.io/the-swapper/privacy-policy">
+                      Privacy Policy
+                    </a>
                   </li>
                   <li>
                     <a href="">Disclaimer</a>
