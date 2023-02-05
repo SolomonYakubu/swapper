@@ -89,7 +89,9 @@ export default function Header() {
               )
           )}
           <button
-            onClick={() => (window.location.href = "https://theswapper.app/")}
+            onClick={() =>
+              (window.location.href = "https://app.theswapper.tech/")
+            }
             className="  bg-black text-white p-3 px-5  rounded  mr-1 border-none w-fit hover:scale-110 transition-all duration-700"
           >
             Launch
@@ -139,7 +141,9 @@ export default function Header() {
               )
           )}
           <button
-            onClick={() => (window.location.href = "https://theswapper.app/")}
+            onClick={() =>
+              (window.location.href = "https://app.theswapper.tech/")
+            }
             className="  bg-black text-white p-3 px-7 text-2xl border-2 border-solid border-white rounded  mr-1 font-bold w-fit hover:scale-110 transition-all duration-700"
           >
             Launch
