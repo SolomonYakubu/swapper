@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         "Smart Contract Creation",
         "Launch on Uniswap",
         "First Marketing Campaign",
-        "Full Audit completed",
+        "Full Audit",
       ],
     },
     {
