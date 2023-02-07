@@ -110,11 +110,11 @@ export default function Header() {
         </button>
       </div>
       <div
-        className={`md:hidden top-0 absolute overflow-hidden flex flex-col bg-black bg-opacity-90 shadow-lg w-full items-start justify-around px-4 transition-all ease-out duration-300 ${
+        className={`md:hidden top-0 absolute overflow-hidden flex flex-col bg-black bg-opacity-90 shadow-lg w-full items-start justify-center px-4 transition-all ease-out duration-300 ${
           (isNavOpen && " h-screen") || "h-0 py-0"
         }`}
       >
-        <ul className="flex flex-col h-full justify-around translate-y-[-100px]">
+        <ul className="flex flex-col h-3/4 justify-around translate-y-[-100px]">
           {list.map(
             ([name, link], index) =>
               (link === null && (
@@ -127,6 +127,7 @@ export default function Header() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={() => setNavOpen(false)}
                 >
                   {name}
                 </Link>

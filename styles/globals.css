@@ -7,6 +7,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: Questrial;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 :root {

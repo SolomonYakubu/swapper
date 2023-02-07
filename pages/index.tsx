@@ -447,7 +447,7 @@ const Home: NextPage = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="">Github</a>
+                    <a href="https://github.com/TheSwapperProject">Github</a>
                   </li>
                 </ul>
                 <ul className="text-zinc-500 text-sm  flex flex-col items-start justify-start ">
@@ -481,7 +481,10 @@ const Home: NextPage = () => {
                   >
                     <BsTwitter size={25} />
                   </a>
-                  <a href="https://github.com" className="text-zinc-500">
+                  <a
+                    href="https://github.com/TheSwapperProject"
+                    className="text-zinc-500"
+                  >
                     <BsGithub size={25} />
                   </a>
                 </div>
