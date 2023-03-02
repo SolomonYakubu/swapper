@@ -146,8 +146,7 @@ const Home: NextPage = () => {
                 <div className="flex flex-col md:flex-row  gap-2 md:mb-0 my-3 md:my-6">
                   <button
                     onClick={() =>
-                      (window.location.href =
-                        "https://app.uniswap.org/#/swap?outputCurrency=0xb9f3066Bfc808F116920ca8dbDF318880472dDEf")
+                      (window.location.href = "https://app.uniswap.org/")
                     }
                     className="  bg-black text-white p-3 px-5  rounded  mr-1 border-none w-fit hover:scale-110 transition-all duration-700"
                   >
@@ -172,12 +171,12 @@ const Home: NextPage = () => {
                 className="text-gray-700 gap-2 flex items-center cursor-copy bg-bg1 w-fit bg-opacity-10 my-3 p-1 text-sm font-bold rounded break-all"
                 onClick={() => {
                   navigator.clipboard.writeText(
-                    "0xb9f3066Bfc808F116920ca8dbDF318880472dDEf"
+                    "0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d"
                   );
                 }}
               >
                 <FaCopy />
-                0xb9f3066Bfc808F116920ca8dbDF318880472dDEf
+                0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d
               </div>
             </div>
           </div>
@@ -251,14 +250,13 @@ const Home: NextPage = () => {
               <p className="text-white text-5xl font-bold">Swapper</p>
               <p className="text-white text-3xl font-bold">Smart Contract</p>
               <p className="text-white md:text-sm text-xs ">
-                0xb9f3066Bfc808F116920ca8dbDF318880472dDEf
+                0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d
               </p>
               <p className="text-white text-3xl font-bold">Token Supply</p>
               <p className="text-white">100,000,000</p>
               <button
                 onClick={() =>
-                  (window.location.href =
-                    "https://app.uniswap.org/#/swap?outputCurrency=0xb9f3066Bfc808F116920ca8dbDF318880472dDEf")
+                  (window.location.href = "https://app.uniswap.org/")
                 }
                 className="   bg-none border border-solid border-white text-white w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
               >
