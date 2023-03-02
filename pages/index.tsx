@@ -200,7 +200,7 @@ const Home: NextPage = () => {
                 src={ethscan}
                 alt=""
                 layout="responsive"
-                className="opacity-50 grayscale "
+                className=" grayscale "
               />
             </div>
             <p className="font-bold text-lg opacity-50 text-black">Arbiscan</p>
