@@ -146,8 +146,7 @@ const Home: NextPage = () => {
                 <div className="flex flex-col md:flex-row  gap-2 md:mb-0 my-3 md:my-6">
                   <button
                     onClick={() =>
-                      (window.location.href =
-                        "https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x5B1859658818Ed19AAa4d088BDA4C0e05732771b")
+                      (window.location.href = "https://app.uniswap.org/")
                     }
                     className="  bg-black text-white p-3 px-5  rounded  mr-1 border-none w-fit hover:scale-110 transition-all duration-700"
                   >
@@ -172,12 +171,12 @@ const Home: NextPage = () => {
                 className="text-gray-700 gap-2 flex items-center cursor-copy bg-bg1 w-fit bg-opacity-10 my-3 p-1 text-sm font-bold rounded break-all"
                 onClick={() => {
                   navigator.clipboard.writeText(
-                    "0x5B1859658818Ed19AAa4d088BDA4C0e05732771b"
+                    "0x0000000000000000000000000000000000000000"
                   );
                 }}
               >
                 <FaCopy />
-                0x5B1859658818Ed19AAa4d088BDA4C0e05732771b
+                0x0000000000000000000000000000000000000000
               </div>
             </div>
           </div>
@@ -201,10 +200,10 @@ const Home: NextPage = () => {
                 src={ethscan}
                 alt=""
                 layout="responsive"
-                className="opacity-50"
+                className="opacity-50 grayscale "
               />
             </div>
-            <p className="font-bold text-lg opacity-50 text-black">Etherscan</p>
+            <p className="font-bold text-lg opacity-50 text-black">Arbiscan</p>
           </div>
           <div className="flex items-center gap-1">
             <div className="block w-6">
@@ -251,14 +250,13 @@ const Home: NextPage = () => {
               <p className="text-white text-5xl font-bold">Swapper</p>
               <p className="text-white text-3xl font-bold">Smart Contract</p>
               <p className="text-white md:text-sm text-xs ">
-                0x5B1859658818Ed19AAa4d088BDA4C0e05732771b
+                0x0000000000000000000000000000000000000000
               </p>
               <p className="text-white text-3xl font-bold">Token Supply</p>
               <p className="text-white">100,000,000</p>
               <button
                 onClick={() =>
-                  (window.location.href =
-                    "https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x5B1859658818Ed19AAa4d088BDA4C0e05732771bss")
+                  (window.location.href = "https://app.uniswap.org/")
                 }
                 className="   bg-none border border-solid border-white text-white w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
               >
@@ -382,7 +380,7 @@ const Home: NextPage = () => {
                 <p className="text-black ">Swapper</p>
               </a>
               <a
-                href="https://t.me/TheSwapperChannel"
+                href="https://t.me/TheSwapperArbitrum"
                 className="bg-stone-500 text-white  bg-opacity-10 rounded-lg flex-1 w-full p-8 md:py-12 flex flex-col justify-center items-center "
               >
                 <ExportedImage
@@ -441,7 +439,7 @@ const Home: NextPage = () => {
                     <a href="https://twitter.com/TheSwapperToken">Twitter</a>
                   </li>
                   <li>
-                    <a href="https://t.me/TheSwapperChannel">Telegram</a>
+                    <a href="https://t.me/TheSwapperArbitrum">Telegram</a>
                   </li>
                   <li>
                     <a href="https://the-swapper-project.gitbook.io/the-swapper/">
@@ -472,7 +470,7 @@ const Home: NextPage = () => {
               <Fade top>
                 <div className="flex gap-3 my-3 justify-center items-center md:justify-start">
                   <a
-                    href="https://t.me/TheSwapperChannel"
+                    href="https://t.me/TheSwapperArbitrum"
                     className="text-zinc-500"
                   >
                     <BsTelegram size={25} />
