@@ -203,7 +203,7 @@ const Home: NextPage = () => {
                 className=" grayscale "
               />
             </div>
-            <p className="font-bold text-lg opacity-50 text-black">Arbiscan</p>
+            <p className="font-bold text-lg opacity-50 text-black">Etherscan</p>
           </div>
           <div className="flex items-center gap-1">
             <div className="block w-6">
