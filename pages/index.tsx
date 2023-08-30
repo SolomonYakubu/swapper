@@ -171,12 +171,12 @@ const Home: NextPage = () => {
                 className="text-gray-700 gap-2 flex items-center cursor-copy bg-bg1 w-fit bg-opacity-10 my-3 p-1 text-sm font-bold rounded break-all"
                 onClick={() => {
                   navigator.clipboard.writeText(
-                    "0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d"
+                    "0x00000000000000000000000000000000000000000"
                   );
                 }}
               >
                 <FaCopy />
-                0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d
+               0x00000000000000000000000000000000000000000
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@ const Home: NextPage = () => {
                 src={ethscan}
                 alt=""
                 layout="responsive"
-                className=" grayscale "
+                className=" opacity-50"
               />
             </div>
             <p className="font-bold text-lg opacity-50 text-black">Etherscan</p>
@@ -211,7 +211,7 @@ const Home: NextPage = () => {
                 src={dextools}
                 alt=""
                 layout="responsive"
-                className="opacity-50"
+                className="opacity-50 "
               />
             </div>
             <p className="font-bold text-lg opacity-50 text-black">Dextools</p>
@@ -228,7 +228,7 @@ const Home: NextPage = () => {
               What is Swapper
             </h3>
             <Fade>
-              <h4 className=" md:text-2xl  text-lg  text-black text-left">
+              <h4 className=" md:text-2xl  text-lg  text-black text-left md:pr-3">
                 What is Swapper? Welcome to Swapper! You can send requests to 6
                 of the world&apos;s largest liquidity pools using the Swapper
                 API. In this way, you can find the best price of the token you
@@ -250,7 +250,7 @@ const Home: NextPage = () => {
               <p className="text-white text-5xl font-bold">Swapper</p>
               <p className="text-white text-3xl font-bold">Smart Contract</p>
               <p className="text-white md:text-sm text-xs ">
-                0x4713B18f8Cf3A2CBA87288Ca14aD1f261a0Fe70d
+                0x00000000000000000000000000000000000000000
               </p>
               <p className="text-white text-3xl font-bold">Token Supply</p>
               <p className="text-white">100,000,000</p>
@@ -380,7 +380,7 @@ const Home: NextPage = () => {
                 <p className="text-black ">Swapper</p>
               </a>
               <a
-                href="https://t.me/TheSwapperArbitrum"
+                href="https://t.me/TheSwapperChannel"
                 className="bg-stone-500 text-white  bg-opacity-10 rounded-lg flex-1 w-full p-8 md:py-12 flex flex-col justify-center items-center "
               >
                 <ExportedImage
@@ -439,7 +439,7 @@ const Home: NextPage = () => {
                     <a href="https://twitter.com/TheSwapperToken">Twitter</a>
                   </li>
                   <li>
-                    <a href="https://t.me/TheSwapperArbitrum">Telegram</a>
+                    <a href="https://t.me/TheSwapperChannel">Telegram</a>
                   </li>
                   <li>
                     <a href="https://the-swapper-project.gitbook.io/the-swapper/">
@@ -470,7 +470,7 @@ const Home: NextPage = () => {
               <Fade top>
                 <div className="flex gap-3 my-3 justify-center items-center md:justify-start">
                   <a
-                    href="https://t.me/TheSwapperArbitrum"
+                    href="https://t.me/TheSwapperChannel"
                     className="text-zinc-500"
                   >
                     <BsTelegram size={25} />
