@@ -8,7 +8,7 @@ import Header from "../components/Header";
 import Video from "../components/Video";
 import ParticlesBg from "../components/particles";
 import { Fade, Bounce, Roll } from "react-reveal";
-import ethscan from "../public/images/eth.png";
+import ethscan from "../public/images/eth.webp";
 import uniswap from "../public/images/uniswap.png";
 import dextools from "../public/images/dextools.png";
 import logo from "../public/images/logo.png";
