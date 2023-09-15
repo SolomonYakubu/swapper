@@ -146,7 +146,7 @@ const Home: NextPage = () => {
                 <div className="flex flex-col md:flex-row  gap-2 md:mb-0 my-3 md:my-6">
                   <button
                     onClick={() =>
-                      (window.location.href = "https://app.uniswap.org/")
+                      (window.location.href = "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x5b0943b62668cBc88c007F219eECe2888Ce4E1a8&use=V2")
                     }
                     className="  bg-black text-white p-3 px-5  rounded  mr-1 border-none w-fit hover:scale-110 transition-all duration-700"
                   >
@@ -171,12 +171,12 @@ const Home: NextPage = () => {
                 className="text-gray-700 gap-2 flex items-center cursor-copy bg-bg1 w-fit bg-opacity-10 my-3 p-1 text-sm font-bold rounded break-all"
                 onClick={() => {
                   navigator.clipboard.writeText(
-                    "0x00000000000000000000000000000000000000000"
+                    "0x5b0943b62668cbc88c007f219eece2888ce4e1a8"
                   );
                 }}
               >
                 <FaCopy />
-               0x00000000000000000000000000000000000000000
+               0x5b0943b62668cbc88c007f219eece2888ce4e1a8
               </div>
             </div>
           </div>
@@ -250,13 +250,13 @@ const Home: NextPage = () => {
               <p className="text-white text-5xl font-bold">Swapper</p>
               <p className="text-white text-3xl font-bold">Smart Contract</p>
               <p className="text-white md:text-sm text-xs ">
-                0x00000000000000000000000000000000000000000
+           0x5b0943b62668cbc88c007f219eece2888ce4e1a8
               </p>
               <p className="text-white text-3xl font-bold">Token Supply</p>
               <p className="text-white">100,000,000</p>
               <button
                 onClick={() =>
-                  (window.location.href = "https://app.uniswap.org/")
+                  (window.location.href = "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x5b0943b62668cBc88c007F219eECe2888Ce4E1a8&use=V2")
                 }
                 className="   bg-none border border-solid border-white text-white w-fit p-3 px-6  rounded mr-1 hover:scale-110 transition-all duration-700"
               >
